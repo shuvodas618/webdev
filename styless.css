@@ -1,0 +1,122 @@
+.logo-button ul{
+  display: flex;
+  align-items: center; 
+  gap: 20px; 
+  list-style: none;
+  padding: 0;
+  justify-content: space-around;
+  align-items: center;
+}
+.signup{
+    color: white;
+    background-color: #4E47FF;
+    height: 48px;
+    width: 132px;
+    border-radius: 8px;
+    text-align: center;
+}
+.nav-head{
+    height: 100vh;
+    background-image: url("../B12A01-landing-launchpad/Assets/Hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.stayfocused{
+    color: white;
+    background-color: #4E47FF;
+    text-align: center;
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+}
+.divui {
+    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;      
+  text-align: center;
+}
+.actionimage{
+  display: flex;                
+  align-items: center;
+}
+.actionimage img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+.action {
+    display: flex;
+    justify-content: space-around; /* pushes the two divs to the ends */
+    align-items: center;            /* aligns items vertically */
+    padding: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 50px 100px 50px 100px;
+  }
+  #launch{
+    color: white;
+    background-color: #4E47FF;
+    height: 24px;
+    width: 157px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .reached-section {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .reached-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #252432;
+  }
+  
+  .reached {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+  }
+  .heading-box {
+    background-color: #4E47FF; 
+    padding: 30px 40px;
+    border-radius: 12px;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  .xyz{
+    background-color: white;
+  }
+  .review h2{
+    font-size: 25px;
+    text-align: center;
+  }
+    .stars {
+      color: gold;
+      font-size: 24px;
+      margin-bottom: 10px; /* spacing below the stars */
+    }
+    .review{
+      display: flex;
+      text-align: center;
+      font-size: 25px;
+    }
+    .card{
+      border-radius: 10%;
+      border-color: 2px #4E47FF;
+    }
